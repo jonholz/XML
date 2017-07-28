@@ -2,11 +2,12 @@
 INCLUDES = -I/usr/include/libxml2
 LIBS = -lxml2
 TARGET = parseMem.out
+SRC = parseMem.cpp
 
 all: $(TARGET)
 
-$(TARGET): parseMem.cpp
-	g++ $(INCLUDES) parseMem.cpp $(LIBS) -o $(TARGET)
+$(TARGET): $(SRC)
+	g++ $(INCLUDES) $(SRC) $(LIBS) -o $(TARGET)
 
 
 clean:
