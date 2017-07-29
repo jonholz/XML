@@ -1,0 +1,11 @@
+<project>
+   <target name="clean">
+      <delete file="parseMem.class"/>
+   </target>
+   <target name="build">
+      <javac srcdir="." destdir="."/> 
+   </target>
+   <target name="run">
+      <java classname="parseMem" classpath="."/>
+   </target>
+</project>
