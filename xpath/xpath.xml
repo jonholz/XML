@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <a>
+      <b>
+         <c id="1">
+            one
+         </c>
+         <c id="2">
+            two
+         </c>
+         <c id="3">
+            three
+         </c>
+      </b>
+   </a>
+   <a>
+      <b>
+         <c id="5"/>
+      </b>
+   </a>
+</root>
